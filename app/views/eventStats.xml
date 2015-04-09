@@ -1,6 +1,6 @@
 <Alloy>
 	<TabGroup id="assignmentTab">
-		<Tab id="captureTab" title="Capture">
+		<Tab id="captureTab" title="Capture" icon="capture.png">
 			<Window backgroundColor="white" id="captureWin">
 				<ActivityIndicator platform="android" id="activityIndicator" style="Ti.UI.ActivityIndicatorStyle.DARK" message='Loading...' top="160" left="100"></ActivityIndicator>
 				<ActivityIndicator platform="ios" id="activityIndicator" style="Ti.UI.iPhone.ActivityIndicatorStyle.DARK" message='Loading...' top="160" left="100"></ActivityIndicator>
@@ -9,7 +9,7 @@
 				</TableView>
 			</Window>
 		</Tab>
-		<Tab id="runningTotalsTab" title="History">
+		<Tab id="runningTotalsTab" title="History"  icon="history.png">
 			<Window title="Running Totals" backgroundColor="white" id="runningTotalsWin">
 				<ActivityIndicator platform="android" id="rtActivityIndicator" style="Ti.UI.ActivityIndicatorStyle.DARK" message='Loading...' top="160"></ActivityIndicator>
 				<ActivityIndicator platform="ios" id="rtAactivityIndicator" style="Ti.UI.iPhone.ActivityIndicatorStyle.DARK" message='Loading...' top="160"></ActivityIndicator>
