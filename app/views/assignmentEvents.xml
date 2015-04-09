@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="eventsWin" title="Games" backgroundColor="white">
+		<ActivityIndicator platform="android" id="activityIndicator" style="Ti.UI.ActivityIndicatorStyle.DARK" message='Loading...'></ActivityIndicator>
+		<ActivityIndicator platform="ios" id="activityIndicator" style="Ti.UI.iPhone.ActivityIndicatorStyle.DARK" message='Loading...'></ActivityIndicator>
+		<TableView id="eventsTable" visible="false">
+		</TableView>
+	</Window>
+</Alloy>

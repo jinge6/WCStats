@@ -1,0 +1,10 @@
+<Alloy>
+	<Window backgroundColor="black">
+		<ImageView id="logo" image="winnerscircle.png" top="90"></ImageView>
+		<TextField id="email" hintText="Email" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="black" backgroundColor="white" keyboardToolbarColor="#999" keyboardToolbarHeight="40"
+            top="170" height="35" width="200"/>
+        <TextField id="password" hintText="Password" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="black" backgroundColor="white" passwordMask="true" keyboardToolbarColor="#999" keyboardToolbarHeight="40"
+            top="220" height="35" width="200"/>
+		<Button id="signinbtn" top="300" color="white" onClick="doSignIn">Sign In</Button>
+	</Window>
+</Alloy>
