@@ -43,7 +43,16 @@ function doSignIn(e){
 		 			$.index.open();
 		 		}
 		 	}
-		}
+		},
+		onerror : function(e) {
+			// use cached credential and play on
+			if (auth_token_property != null)
+			{
+		    	var assignmentsWindow = Alloy.createController('assignments').getView();
+	    		assignmentsWindow.open();
+		   	}
+		},
+		timeout : 10000  // in milliseconds
 	});
 	
 	xhr.open('POST',webserver+'/users/sign_in.json');
